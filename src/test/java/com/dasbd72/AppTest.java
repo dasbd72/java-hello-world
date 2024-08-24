@@ -15,4 +15,11 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         assertTrue(true);
     }
+
+    @Test
+    public void testIsPrime() {
+        assertTrue(App.isPrime(2));
+        assertTrue(App.isPrime(71));
+        assertTrue(App.isPrime(97));
+    }
 }
